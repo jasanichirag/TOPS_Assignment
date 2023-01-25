@@ -1,0 +1,12 @@
+				::  EMPLOYEE TABLE  ::
+			
+employee id      : 1
+employee name    : jasnai chirag 
+employee address : sanosara
+employee age     : 232
+
+employee id      : 2
+employee name    : jay dabhi
+employee address : sanosara
+employee age     : 23
+
