@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first html page</title>
+    <style>
+        .Q{
+            color: red;
+        }
+        a:hover{
+            text-decoration: none;
+            color: darkblue;
+        }
+        td{
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Q1) Define the terms: Website, Webpage, Web browser, Web server, HTML, 
+CSS-->
+<div>
+    <span class="Q"> (Q1) Define the terms: Website, Webpage, Web browser, Web server, HTML,CSS :</span>
+</div>
+<ol>
+    <li><h4>website :</h4></li>
+    <p>
+        A collection of web pages which are grouped together and usually connected together in various ways. Often called a "web site" or a "site."
+    </p>
+    <li><h4>web page :</h4></li>
+    <span>A document which can be displayed in a web browser such as Firefox, Google Chrome, Opera, Microsoft Edge, or Apple Safari. These are also often called just "pages."</span>
+    <li><h4>search engine (Web-browser) :</h4></li>
+    <span>A web service that helps you find other web pages, such as Google, Bing, Yahoo, or DuckDuckGo. Search engines are normally accessed through a web browser (e.g. you can perform search engine searches directly in the address bar of Firefox, Chrome, etc.) or through a web page (<a href="https://www.bing.com/" class="A"><b> bing.com </b></a> or <a href="https://duckduckgo.com/" class="A"><b> duckduckgo.com</b></a>).</span>
+    <li><h4>Web server :</h4></li>
+    <span>A computer that hosts a website on the Internet.</span>
+    <li><h4>HTML :</h4></li>
+    <span>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.</span>
+    <li><h4>CSS :</h4></li>
+    <span>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</span><br>
+    <br>
+<span><b>NOTE :-</b><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines"> more information :</a></span>
+</ol>
+<br><hr><br>
+
+<!-- Q2) Create a webpage to show “This is my first HTML page”  -->
+<div>
+<div class="Q">
+    <span>(Q2) Create a webpage to show “This is my first HTML page” :</span>
+</div>
+<div class="ans">
+    <h1>“This is my first HTML page”</h1>
+</div>
+</div>
+<br>
+<hr>
+<br>
+<!-- Q3) Display top 10 IT companies list in html webpage -->
+<div>
+<div class="Q">
+    <span>(Q3) Display top 10 IT companies list in html webpage :</span>
+</div>
+ <h3>Top 10 IT companies in the world</h3>
+    <ol>
+        <li>Microsoft</li>
+        <li>Hewlett Packard Enterprise (Hp)</li>
+        <li>IBM : "International Business Machines"</li>
+        <ul>
+            <li>" One Of the top IT companies in the world"</li>
+        </ul>
+        <li>Accenture</li>
+        <li>Oracle </li>
+        <ul>
+            <li>"One Of the leading IT companies in the world"</li>
+        </ul>
+        <li>SAP</li>
+        <ul>
+            <li>"Amongst the prominent IT companies in the world"</li>
+        </ul>
+        <li>TCS : "Tata Consultancy Services"</li>
+        <li>Capgemini</li>
+        <li>Cognizant</li>
+        <li>Infosys</li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+</div>
+<!-- Q4) Create a dropdown list -->
+<div>
+<div class="Q">
+    <span>(Q4) Create a dropdown list :</span>
+</div>
+<br>
+<div>
+    <label for="dropdown">Select Language :</label>
+    <select name="dropdown" id="dropdown">
+        <option value="">---SELECT---</option>
+        <option value="A">c</option>
+        <option value="B">c++</option>
+        <option value="C">java</option>
+        <option value="D">python</option>
+        <option value="E">dotNet</option>
+        <option value="F">HTML</option>
+    </select>
+    <br>
+    <br>
+    <hr>
+    <br>
+</div>
+</div>
+<!--  Q5)  Create a Table Of college Management system using row span & col span. :-->
+<div>
+    <div>
+        <span class="Q">(Q5) Create a Table Of college Management system using row span & col span. :</span>
+        <h5>Management system :</h5>
+    </div>
+    <div>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminar</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Sehedule</th>
+                    <th rowspan="2">Topic</th>
+                </tr>
+                <tr>
+                    <th>Begin</th>
+                    <th>End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="2">Monday</th>
+                    <td rowspan="2">8:00 a.m </td>
+                    <td rowspan="2">5:00 p.m </td>
+                    <td>Introduction to XML</td>
+                </tr>
+                <tr>
+                    <td>Validity : DTD and Relax NG</td>
+                </tr>
+                <tr>
+                    <th rowspan="3">Tuesday</th>
+                    <td >8:00 a.m </td>
+                    <td >11:00 a.m </td>
+                    <td rowspan="">XPath</td>
+                </tr>
+                <tr>
+                    <td>11:00 a.m </td>
+                    <td>2:00 p.m </td>
+                    <td rowspan="2">XSL Transformations</td>
+                </tr>
+                <tr>
+                    <td>2:00 p.m </td>
+                    <td>5:00 p.m </td>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <td>8:00 a.m </td>
+                    <td>12:00 p.m</td>
+                    <td>XSL Formatting Objects</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <hr>
+</div>
+</body>
+</html>
